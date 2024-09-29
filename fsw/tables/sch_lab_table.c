@@ -31,8 +31,8 @@
 #include "to_lab_msgids.h"
 #endif
 
-#ifdef HAVE_SAMPLE_APP
-#include "sample_app_msgids.h"
+#ifdef HAVE_BLINKER_APP
+#include "blinker_app_msgids.h"
 #endif
 
 #ifdef HAVE_HS
@@ -80,8 +80,8 @@ SCH_LAB_ScheduleTable_t SCH_LAB_ScheduleTable = {
 #ifdef HAVE_TO_LAB
         {CFE_SB_MSGID_WRAP_VALUE(TO_LAB_SEND_HK_MID), 94, 0},
 #endif
-#ifdef HAVE_SAMPLE_APP
-        {CFE_SB_MSGID_WRAP_VALUE(SAMPLE_APP_SEND_HK_MID), 93, 0},
+#ifdef HAVE_BLINKER_APP
+        {CFE_SB_MSGID_WRAP_VALUE(BLINKER_APP_SEND_HK_MID), 93, 0},
 #endif
 #ifdef HAVE_SC
         {CFE_SB_MSGID_WRAP_VALUE(SC_SEND_HK_MID), 92, 0},

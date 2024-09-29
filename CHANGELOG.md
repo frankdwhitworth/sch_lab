@@ -114,7 +114,7 @@
 - See <https://github.com/nasa/sch_lab/pull/53>
 
 ## Development Build: v2.4.0-rc1+dev2
-- Reorganize the sch_lab table so it matches the sample_app usage and format.
+- Reorganize the sch_lab table so it matches the blinker_app usage and format.
 - See <https://github.com/nasa/sch_lab/pull/52>
 
 ## Development Build: v2.3.0+dev37
